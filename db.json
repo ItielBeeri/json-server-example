@@ -1,0 +1,53 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "firstName": "Avi",
+      "lastName": "Aloni"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "TypeScript",
+      "cycles": [
+        {
+          "id": 1,
+          "students": [ 1 ],
+          "lecture": 1,
+          "lessons": [
+            {
+              "id": 1,
+              "date": "2017/12/3",
+              "topic": "Introduction"
+            }
+          ],
+          "actualAssigments": [
+            {
+              "assignmentId": 1,
+              "dueDate": "2018/1/1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "lectures": [
+    {
+      "id": 1,
+      "firstName": "Golda",
+      "lastName": "Meir"
+    }
+  ],
+  "assigments": [
+    {
+      "id": 1,
+      "name": "Final TypeScript Test",
+      "type": "exam"
+    }
+  ],
+  "collegeDetails": {
+    "name": "Frontend college",
+    "address": "HaTamar 3 Jerusalem"
+  }
+}
